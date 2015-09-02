@@ -46,7 +46,7 @@ sealed trait Stream[+A] {
       // of ||)
     }
 
-  def find (p :A => Boolean) :Option[A] = this.filter (p).headOption
+  //def find (p :A => Boolean) :Option[A] = this.filter (p).headOption
 }
 
 
