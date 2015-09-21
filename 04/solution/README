@@ -1,0 +1,10 @@
+Call the following sbt commands to tinker with this project:
+
+sbt compile      - to build the project
+sbt test         - to run the scalacheck tests
+sbt ~test        - to run the tests in a continous loop, whenever files change
+sbt console      - to drop into REPL with a suitable classpath setup for your project
+sbt test:console - drop into REPL with classpath configured for testing classes
+sbt clean        - remove sbt generated files
+
+
