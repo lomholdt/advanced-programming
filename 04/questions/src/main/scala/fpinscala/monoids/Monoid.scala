@@ -26,14 +26,33 @@ object Monoid {
 
   // Exercise 10.1
 
-  // val intAddition =
-  // val intMultiplication =
-  // val booleanOr =
-  // val booleanAnd =
+  val intAddition = new Monoid[Int] {
+    def op (a1: Int, a2: Int) = a1 + a2
+    val zero = 0
+  }
+
+  val intMultiplication = new Monoid[Int] {
+    def op (a1: Int, a2: Int) = a1 * a2
+    val zero = 1
+  }
+
+  val booleanOr = new Monoid[Boolean] {
+    def op (a1: Boolean, a2: Boolean) = a1 || a2
+    val zero = false
+  }
+
+  val booleanAnd = new Monoid[Boolean] {
+    def op (a1: Boolean, a2: Boolean) = a1 && a2
+    val zero = true
+  }
 
   // Exercise 10.2
 
-  // def optionMonoid[A] = ...
+  def optionMonoid[A] = new Monoid[Option[A]] {
+    def op (a1: Option[A], a2: Option[A]): Option[A] = a1 orElse a2
+    val zero = None
+
+  }
 
   def dual[A] (m :Monoid[A]) = new Monoid[A] {
     def op (a1: A, a2: A) = m.op(a2,a1)
@@ -41,7 +60,13 @@ object Monoid {
   }
 
   // Exercise 10.3
-  // def endoMonoid[A] =
+  def endoMonoid[A] = new Monoid[A => A] {
+    def op (f: A => A, g: A => A) = f compose g
+    val zero = (a: A) => a
+
+  }
+
+
 
   // Exercise 10.4 is solved in MonoidSpec.scala
   //
@@ -53,9 +78,11 @@ object Monoid {
   def concatenate[A] (as: List[A], m: Monoid[A]): A =
     as.foldLeft (m.zero) (m.op)
 
+
   // Exercise 10.5 (easy)
 
-  // def foldMap[A,B] (as: List[A], m: Monoid[B]) (f: A=>B): B =
+  def foldMap[A,B] (as: List[A], m: Monoid[B]) (f: A=>B): B =
+    as.foldLeft (m.zero) ((a,b) => m.op(a, f(b)))
 
   // Exercise 10.7
 

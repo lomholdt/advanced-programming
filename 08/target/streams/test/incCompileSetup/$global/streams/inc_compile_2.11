@@ -1,0 +1,350 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes
+compile options:
+2 items
+0 -> -deprecation
+1 -> -feature
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+45 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$1.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$16.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$13.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$14.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$15.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$11.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$12.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$17.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$16.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$17.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$18.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$18.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$19.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$20.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$21.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$2.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$1$$anonfun$apply$1.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$1.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$2.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$3.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$4.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$4$$anonfun$apply$2.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$4.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$5.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$6.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$7.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$8.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$9.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$7.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$8.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$15.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$10.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$11.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$12.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$arbFingerTree$1.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$fingerTree$1.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$fingerTreeOfN$1.class
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski.class
+binary dependencies:
+4 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/jonas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/jonas/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /home/jonas/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+1 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.data$
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+45 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$1
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$10
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$10$$anonfun$16
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$13
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$14
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$15
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$11
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$12
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$13
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$13$$anonfun$17
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$16
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$17
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$18
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$14
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$14$$anonfun$18
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$19
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$20
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$21
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$2
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$3
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$1
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$1$$anonfun$apply$1
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$2
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$3
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$4
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$5
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$4
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$4$$anonfun$apply$2
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$5
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$6
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$6
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$7
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$8
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$9
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$7
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$8
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$9
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$9$$anonfun$15
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$10
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$11
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$12
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$arbFingerTree$1
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$fingerTree$1
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro.FingerTreeSpecWasowski$$anonfun$fingerTreeOfN$1
+used names:
+101 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> $conforms
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> $org_scalatest_assert_macro_expr
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> $org_scalatest_assert_macro_left
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> $org_scalatest_assert_macro_right
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> &&
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> <init>
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> ==
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> A
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Arbitrary
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Bool
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Buildable
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Char
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Checkers
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Choose
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> ConsL
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> ConsR
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Digit
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> FingerTree
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> FingerTreeSpecWasowski
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> FlatSpec
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Gen
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Int
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> List
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> NilTree
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Predef
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Pretty
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Prop
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> Shrink
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> _1
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> _2
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> addL
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> addR
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> adpro
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> apply
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> arb
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> arbInt
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> arbitrary
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> assert
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> assertionsHelper
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> behavior
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> binaryMacroBool
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> buildableCanBuildFrom
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> canBuildFrom
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> check
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> choose
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> chooseInt
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> data
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> empty
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> fail
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> fingerTree
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> fingerTreeOfN
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> flatMap
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> foldLeft
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> foldRight
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> forAll
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> ft3plus
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> gen
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> generatorDrivenConfig
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> get
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> head
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> headL
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> headR
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> immutable
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> implicitConversions
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> in
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> isEmpty
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> it
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> l
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> language
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> list3plus
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> listOfN
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> macroAssert
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> map
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> n
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> nonEmpty
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> of
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> org
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> package
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> prettyAny
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> prettyList
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> prop
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> propBoolean
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> scala
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> scalacheck
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> scalactic
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> scalatest
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> should
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> shrinkAny
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> shrinkContainer
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> shrinkInt
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> simpleMacroBool
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> t
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> tail
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> tailL
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> tailR
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> toList
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> toTree
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> unapply
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> unary_!
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> util
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> x
+product stamps:
+45 items
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$1.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$16.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$13.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$14.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10$$anonfun$apply$mcV$sp$15.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$10.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$11.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$12.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$17.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$16.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$17.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13$$anonfun$apply$mcV$sp$18.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$13.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$18.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$19.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$20.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14$$anonfun$apply$mcV$sp$21.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$14.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$2.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$1$$anonfun$apply$1.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$1.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$2.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3$$anonfun$apply$mcV$sp$3.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$3.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$4.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$4$$anonfun$apply$2.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$4.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$5.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5$$anonfun$apply$mcV$sp$6.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$5.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$7.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$8.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6$$anonfun$apply$mcV$sp$9.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$6.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$7.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$8.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$15.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$10.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$11.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9$$anonfun$apply$mcV$sp$12.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$9.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$arbFingerTree$1.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$fingerTree$1.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski$$anonfun$fingerTreeOfN$1.class -> lastModified(1447338338000)
+/home/scala/2015-apro-code-examples/08/target/scala-2.11/test-classes/adpro/FingerTreeSpecWasowski.class -> lastModified(1447338338000)
+source stamps:
+1 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> hash(63056d88c2f7ead55c482580dc8552e519e02ce7)
+binary stamps:
+4 items
+/home/jonas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1438617866000)
+/home/jonas/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar -> lastModified(1435014287000)
+/home/jonas/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar -> lastModified(1422562091000)
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1445497156000)
+class names:
+4 items
+/home/jonas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Char
+/home/jonas/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar -> org.scalacheck.Prop$
+/home/jonas/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar -> org.scalatest.prop.Checkers
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCNgBTVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAALc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwVFVcGXQAGmNvbnZlcnRUb1N0cmluZ011c3RXcmFwcGVyc3EAfgAL/fFbkXQAGWNvbnZlcnRUb1N0cmluZ0NhbldyYXBwZXJzcQB+AAu+abzMdAASY29udmVydFRvRXF1YWxpemVyc3EAfgALBss3G3QAKGNvbnZlcnRUb0luQW5kSWdub3JlTWV0aG9kc0FmdGVyVGFnZ2VkQXNzcQB+AAulodpidAAnc2hvcnRoYW5kU2hhcmVkVGVzdFJlZ2lzdHJhdGlvbkZ1bmN0aW9uc3EAfgALqK8tMHQAFWdlbmVyYXRvckRyaXZlbkNvbmZpZ3NxAH4AC0gjRV50AA1hcmJGaW5nZXJUcmVlc3EAfgALQt9cr3QAFXVuY29uc3RyYWluZWRFcXVhbGl0eXNxAH4AC7LUJJp0ABtjb252ZXJ0VG9JbkFuZElnbm9yZU1ldGhvZHNzcQB+AAv5F8EYdAAcY29udmVydFRvU3RyaW5nU2hvdWxkV3JhcHBlcnNxAH4AC1MZrfV0ACFzaG9ydGhhbmRUZXN0UmVnaXN0cmF0aW9uRnVuY3Rpb251cQB+AAkAAACuc3EAfgALmA83F3QABmFzc2VydHNxAH4ACyu/5Fp0AAZub3RpZnlzcQB+AAsbIeDwdAAmbG93UHJpb3JpdHlDb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAtd6GMIdAAHdW5hcHBseXNxAH4AC5Vmpu50AAdjdXJyaWVkc3EAfgALHvMwfXQAEEFzc2VydGlvbnNIZWxwZXJzcQB+AAuYeVyXdAATUHJvcGVydHlDaGVja0NvbmZpZ3NxAH4AC5jIvKF0AAZjYW5jZWxzcQB+AAsR7B2xdAARZXhlY3V0ZSRkZWZhdWx0JDJzcQB+AAt8tl35dAAMZXhwZWN0UmVzdWx0c3EAfgALt+pTenQACWludGVyY2VwdHNxAH4ACxBbNGd0AARmYWlsc3EAfgAL/5yHonQAFEl0VmVyYlN0cmluZ1RhZ2dlZEFzc3EAfgALp9/Va3QABG5hbWVzcQB+AAugqEYwdAACaW5zcQB+AAuQSEeldAAUYXNzZXJ0RG9lc05vdENvbXBpbGVzcQB+AAt3+IGndAARZXhlY3V0ZSRkZWZhdWx0JDRzcQB+AAsATVdndAACaXNzcQB+AAuRTlYrdAAHZXhlY3V0ZXNxAH4AC1mIMyB0AAR3YWl0c3EAfgAL/jWOc3QAD2FwcGx5JGRlZmF1bHQkNHNxAH4AC/DfA7d0ABA8aW5pdD4kZGVmYXVsdCQ1c3EAfgALIZF9SHQAC3Rlc3REYXRhRm9yc3EAfgALOFGNt3QAE2NyZWF0ZUNhdGNoUmVwb3J0ZXJzcQB+AAvyhDATdAAJc3R5bGVOYW1lc3EAfgAL3AESbXQADmNvcHkkZGVmYXVsdCQyc3EAfgAL1AJOCnQADSRhc0luc3RhbmNlT2ZzcQB+AAt2QXG/dAARZXhlY3V0ZSRkZWZhdWx0JDNzcQB+AAu7qZX2dAAOY29weSRkZWZhdWx0JDVzcQB+AAtvTQqmdAAHY29tcG9zZXNxAH4ACynjJMB0ABA8aW5pdD4kZGVmYXVsdCQxc3EAfgALNlrZVnQACWNvbmZpZ01hcHNxAH4AC5ZOYXt0AAxwcm9kdWN0QXJpdHlzcQB+AAsXmVNndAALZGlmZlN0cmluZ3NzcQB+AAsPReuwdAAGZXF1YWxzc3EAfgAL1Ppt33QACmZpbmdlclRyZWVzcQB+AAuCfgRFdAAsY29udmVydEVxdWl2YWxlbmNlVG9BVG9CQ29udmVyc2lvbkNvbnN0cmFpbnRzcQB+AAvb0dNTdAAPZGVmYXVsdEVxdWFsaXR5c3EAfgALVwK34nQAImNvbnZlcnRFcXVpdmFsZW5jZVRvQVRvQkNvbnN0cmFpbnRzcQB+AAvOmxtLdAAEbXVzdHNxAH4AC1nMlLp0AAR0YWdzc3EAfgALeTHhdXQADGFzSW5zdGFuY2VPZnNxAH4ACx8lXap0AAVhbGVydHNxAH4ACx+GjVp0AAd3b3JrZXJzc3EAfgALfbycr3QAA3J1bnNxAH4AC7Rw5+x0AA9MZWdhY3lFcXVhbGl6ZXJzcQB+AAvywpuadAAGc2NvcGVzc3EAfgALXxU9+nQAGGNvbnZlcnRUb0xlZ2FjeUVxdWFsaXplcnNxAH4AC67DyBZ0AAxzeW5jaHJvbml6ZWRzcQB+AAstkBDAdAAEbGVmdHNxAH4AC7wNVNx0AAJpdHNxAH4AC8iU5Ah0AA1NaW5TdWNjZXNzZnVsc3EAfgALE0vBK3QADmFzc2VydENvbXBpbGVzc3EAfgALpGduO3QADmxlZnRTaWRlU3RyaW5nc3EAfgALe/R6bHQADSRpc0luc3RhbmNlT2ZzcQB+AAu3r+i6dAAEdHJhcHNxAH4AC0P0+ZN0ABV0ZXN0RGF0YUZvciRkZWZhdWx0JDJzcQB+AAvfWKSvdAASSW5BbmRJZ25vcmVNZXRob2Rzc3EAfgALL0LP/XQAB2FuZFRoZW5zcQB+AAuDb7PfdAAPYXBwbHkkZGVmYXVsdCQzc3EAfgALdZV5QXQADGFzc2VydFJlc3VsdHNxAH4AC8hfuDh0ABA8aW5pdD4kZGVmYXVsdCQ0c3EAfgALr76hfHQABnR1cGxlZHNxAH4AC83EjIN0AAdNYXhTaXplc3EAfgALyCxXk3QAF1N0cmluZ0NhbldyYXBwZXJGb3JWZXJic3EAfgALHSLOLnQABHRleHRzcQB+AAu12AoldAAsY29udmVydEVxdWl2YWxlbmNlVG9CVG9BQ29udmVyc2lvbkNvbnN0cmFpbnRzcQB+AAtM3SXzdAAIY2FuRXF1YWxzcQB+AAtYrBdodAAOY29weSRkZWZhdWx0JDRzcQB+AAsgMrOfdAAEdGhleXNxAH4AC7xsVbB0ABFleGVjdXRlJGRlZmF1bHQkN3NxAH4AC6VjRvx0AA1wcm9kdWN0UHJlZml4c3EAfgALgdla6nQAFXR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4ACwecuaZ0AAMhPT1zcQB+AAvjvVK1dAAEaW5mb3NxAH4ACxMLkj50AAlub3RpZnlBbGxzcQB+AAsccMqFdAALcmVhZFJlc29sdmVzcQB+AAvO0VxbdAAMSXRWZXJiU3RyaW5nc3EAfgALNy9JbHQAC3dpdGhGaXh0dXJlc3EAfgALxgJNyXQAB3J1blRlc3RzcQB+AAubcjlPdAAMaXNJbnN0YW5jZU9mc3EAfgALxvWU4HQACHdpdGhDbHVlc3EAfgAL+MvSmnQAEGFzc2VydGlvbnNIZWxwZXJzcQB+AAsLAzZOdAARZXhlY3V0ZSRkZWZhdWx0JDZzcQB+AAutak6bdAAIdGFnZ2VkQXNzcQB+AAsx0WGmdAAPYXNzZXJ0VHlwZUVycm9yc3EAfgALL4HQkXQAEDxpbml0PiRkZWZhdWx0JDNzcQB+AAvrFjyYdAAGbWFya3Vwc3EAfgALLnC0u3QACGxlZnRTaWRlc3EAfgALnSbuvHQABjxpbml0PnNxAH4AC2kRFml0AAttYWNyb0Fzc3VtZXNxAH4AC+DSGW90AAdNaW5TaXplc3EAfgALUJtyZnQAD3J1bk5lc3RlZFN1aXRlc3NxAH4ACzTN2dh0ABhQcm9wZXJ0eUNoZWNrQ29uZmlnUGFyYW1zcQB+AAvABPwXdAADY2Fuc3EAfgALoXFTNXQAD2FwcGx5JGRlZmF1bHQkMnNxAH4AC+F6gbZ0AAZJdFdvcmRzcQB+AAtLZ/judAAFY2hlY2tzcQB+AAtUqqzBdAAFYXBwbHlzcQB+AAt8qH9edAAJRXF1YWxpemVyc3EAfgALmDrfQnQAG25ld0Fzc2VydGlvbkZhaWxlZEV4Y2VwdGlvbnNxAH4AC3JG6yR0AARub3Rlc3EAfgALUDbjMXQAAj09c3EAfgALTLI5unQAH0luQW5kSWdub3JlTWV0aG9kc0FmdGVyVGFnZ2VkQXNzcQB+AAsd7pnGdAANbWluU3VjY2Vzc2Z1bHNxAH4ACxIrlcJ0AAVjbG9uZXNxAH4AC6RJPuh0AAxCZWhhdmlvcldvcmRzcQB+AAuu0gIXdAAGZXhwZWN0c3EAfgAL1rFXRnQABnNob3VsZHNxAH4AC0Vop9x0AAdXb3JrZXJzc3EAfgAL5izL3HQADG5lc3RlZFN1aXRlc3NxAH4AC91+Hmp0AAZhc3N1bWVzcQB+AAsdY+mrdAAGJGluaXQkc3EAfgALkpFkmHQAIGxvd1ByaW9yaXR5VHlwZUNoZWNrZWRDb25zdHJhaW50c3EAfgAL6l5+gXQACFRoZXlXb3Jkc3EAfgAL3aj9ZXQADHJlZ2lzdGVyVGVzdHNxAH4ACz0uH8B0ABFleGVjdXRlJGRlZmF1bHQkNXNxAH4AC5R0hhV0AA5jb3B5JGRlZmF1bHQkM3NxAH4AC/T7iUp0AARjb3B5c3EAfgALEdZbMXQAD2FwcGx5JGRlZmF1bHQkMXNxAH4AC6Rs6VV0AAM9PT1zcQB+AAsrbfKLdAAYbmV3VGVzdENhbmNlbGVkRXhjZXB0aW9uc3EAfgALIMhR+HQACHRvU3RyaW5nc3EAfgALbkdaJ3QACXRlc3ROYW1lc3NxAH4ACyV3KcV0ABhTdHJpbmdNdXN0V3JhcHBlckZvclZlcmJzcQB+AAt8N6CBdAARZXhlY3V0ZSRkZWZhdWx0JDFzcQB+AAsFVZgfdAACIT1zcQB+AAsvrX5bdAAJZ2V0UGFyYW1zc3EAfgALGCqDVHQAD2FwcGx5JGRlZmF1bHQkNXNxAH4AC2BDuRt0AAxNYXhEaXNjYXJkZWRzcQB+AAtP8Q43dAAXTGVnYWN5Q2hlY2tpbmdFcXVhbGl6ZXJzcQB+AAvzatFmdAAYSWdub3JlVmVyYlN0cmluZ1RhZ2dlZEFzc3EAfgAL13gzznQACGdldENsYXNzc3EAfgALqXDjG3QAE3JlZ2lzdGVySWdub3JlZFRlc3RzcQB+AAsflkO6dAAGYmVoYXZlc3EAfgALalsQ5HQADmNvcHkkZGVmYXVsdCQxc3EAfgAL9fSgTXQACHJ1blRlc3Rzc3EAfgALow6LTnQACGJlaGF2aW9yc3EAfgALSVhJrXQAEXBlbmRpbmdVbnRpbEZpeGVkc3EAfgALn+0iD3QADlRoZXlWZXJiU3RyaW5nc3EAfgALeXbQDXQAEWV4cGVjdGVkVGVzdENvdW50c3EAfgAL7JKYEHQACHJlcnVubmVyc3EAfgALc/P6G3QAImNvbnZlcnRFcXVpdmFsZW5jZVRvQlRvQUNvbnN0cmFpbnRzcQB+AAucC3V5dAACbmVzcQB+AAvCB6FudAAWVGhleVZlcmJTdHJpbmdUYWdnZWRBc3NxAH4ACw0hX+d0AAdtYXhTaXplc3EAfgALWUE+MnQAEUNoZWNraW5nRXF1YWxpemVyc3EAfgALLG6EuXQAIGNvbnZlcnRUb0xlZ2FjeUNoZWNraW5nRXF1YWxpemVyc3EAfgALvsu/hHQAB3BlbmRpbmdzcQB+AAtpaDzTdAAFdmFsdWVzcQB+AAsCKgIydAAGaWdub3Jlc3EAfgALRlLZBnQAEElnbm9yZVZlcmJTdHJpbmdzcQB+AAtzkC26dAALbWFjcm9Bc3NlcnRzcQB+AAuImNDtdAAQPGluaXQ+JGRlZmF1bHQkMnNxAH4ACwZdK410AAJlcXNxAH4ACzl/QFV0ABtnZXRPYmplY3RzRm9yRmFpbHVyZU1lc3NhZ2VzcQB+AAslXEiydAAaY29udmVydFRvQ2hlY2tpbmdFcXVhbGl6ZXJzcQB+AAu+wd8RdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAL0u7zknQAAm9mc3EAfgALyCTFYHQADG1heERpc2NhcmRlZHNxAH4ACxihYOh0AAlOb0FyZ1Rlc3RzcQB+AAvZV/G6dAAKSWdub3JlV29yZHNxAH4ACxR9poR0ABZGaW5nZXJUcmVlU3BlY1dhc293c2tpc3EAfgALlIyuEXQAB21pblNpemVzcQB+AAs9hRCqdAANZmluZ2VyVHJlZU9mTnNxAH4AC+858gp0AAIjI3NxAH4ACxQ4ZXx0ABpTdHJpbmdTaG91bGRXcmFwcGVyRm9yVmVyYnNxAH4AC1uef+R0AAhmaW5hbGl6ZXNxAH4ACwuCWpB0ABtjb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAvAxS6XdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAstGNPAdAAIaGFzaENvZGVzcQB+AAtyDm1ndAAHc3VpdGVJZHNxAH4AC33KAYl0AAlzdWl0ZU5hbWVzcQB+AAuUEQDudAAGYXBwZW5kc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4BiXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHGFkcHJvLkZpbmdlclRyZWVTcGVjV2Fzb3dza2l1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ACdzY2FsYS5yZWZsZWN0Lm1hY3Jvcy5pbnRlcm5hbC5tYWNyb0ltcGx0ABBzY2FsYS5kZXByZWNhdGVkc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AaMBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AYlMAAlpbmhlcml0ZWRxAH4BiUwAB3BhcmVudHNxAH4BiXhxAH4BqnNxAH4BowF1cQB+AYQAAAAAcHNxAH4BowF1cQB+AYQAAAAAcHNxAH4BowF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAFHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+Aal0AAhDaGVja2Vyc3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4BqXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADb3Jnc3EAfgHCdAAJc2NhbGF0ZXN0c3EAfgHCdAAEcHJvcHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgHDc3EAfgG2dAANQ29uZmlndXJhdGlvbnEAfgG8c3EAfgG2dAAIRmxhdFNwZWNzcQB+AbpzcQB+Ab11cQB+AcAAAAADc3EAfgHCdAADb3Jnc3EAfgHCdAAJc2NhbGF0ZXN0cQB+ActzcQB+AbZ0AAxGbGF0U3BlY0xpa2VxAH4B0HNxAH4BtnQAC0RvY3VtZW50aW5ncQB+AdBzcQB+AbZ0AAhBbGVydGluZ3EAfgHQc3EAfgG2dAAJTm90aWZ5aW5ncQB+AdBzcQB+AbZ0AAlJbmZvcm1pbmdxAH4B0HNxAH4BtnQAB0NhblZlcmJzcQB+AbpzcQB+Ab11cQB+AcAAAAAEc3EAfgHCdAADb3Jnc3EAfgHCdAAJc2NhbGF0ZXN0c3EAfgHCdAAFd29yZHNxAH4By3NxAH4BtnQACE11c3RWZXJicQB+AeNzcQB+AbZ0AApTaG91bGRWZXJicQB+AeNzcQB+AbZ0ABBUZXN0UmVnaXN0cmF0aW9ucQB+AdBzcQB+AbZ0AAVTdWl0ZXEAfgHQc3EAfgG2dAAMU2VyaWFsaXphYmxlc3EAfgG6c3EAfgG9dXEAfgHAAAAAA3NxAH4BwnQABGphdmFzcQB+AcJ0AAJpb3EAfgHLc3EAfgG2dAANQWJzdHJhY3RTdWl0ZXEAfgHQc3EAfgG2dAAKQXNzZXJ0aW9uc3EAfgHQc3EAfgG2dAAMVHJpcGxlRXF1YWxzc3EAfgG6c3EAfgG9dXEAfgHAAAAAA3NxAH4BwnQAA29yZ3NxAH4BwnQACXNjYWxhY3RpY3EAfgHLc3EAfgG2dAATVHJpcGxlRXF1YWxzU3VwcG9ydHEAfgIDc3EAfgG2dAAGT2JqZWN0c3EAfgG6c3EAfgG9dXEAfgHAAAAAA3NxAH4BwnEAfgH6c3EAfgHCdAAEbGFuZ3EAfgHLc3EAfgG2dAADQW55c3EAfgG6c3EAfgG9dXEAfgHAAAAAAnNxAH4BwnQABXNjYWxhcQB+ActwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABWFkcHJvc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFQ/BZYnHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AEUvaG9tZS9zY2FsYS8yMDE1LWFwcm8tY29kZS1leGFtcGxlcy8wOC90YXJnZXQvc2NhbGEtMi4xMS90ZXN0LWNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRjBW2Iwvfq1VxIJYDchVLlGeAs5w==
+external apis:
+1 items
+adpro.data$ -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDEKBYvAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPbtWDV0AAVoZWFkTHNxAH4ADCTaIVN0AAZub3RpZnlzcQB+AAyfQbgAdAAHdW5hcHBseXNxAH4ADAsMClB0AAp1bmFwcGx5U2Vxc3EAfgAMV7gjc3QABHdhaXRzcQB+AAxk4wlIdAAHcmVkdWNlTHNxAH4ADLwjkxB0AAVDb25zUnNxAH4ADD5JeSV0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADAQaL450AA0kYXNJbnN0YW5jZU9mc3EAfgAMTYeyqnQABWVtcHR5c3EAfgAMAZY+yXQABU5vZGUyc3EAfgAM3XjQiHQABWRlZXBMc3EAfgAMlTinVHQADHByb2R1Y3RBcml0eXNxAH4ADH7EAkh0AAZlcXVhbHNzcQB+AAwFHg8qdAAGdG9MaXN0c3EAfgAM8/4fLHQADGFzSW5zdGFuY2VPZnNxAH4ADBnstSd0AARkYXRhc3EAfgAMlJL6snQAB05pbFRyZWVzcQB+AAzklwFedAAMc3luY2hyb25pemVkc3EAfgAMeXHvoHQADSRpc0luc3RhbmNlT2ZzcQB+AAw9diVUdAACc2ZzcQB+AAxqKyqydAAETm9kZXNxAH4ADGKhhjR0AAFtc3EAfgAMNpP773QACG5vbkVtcHR5c3EAfgAM0HjTWXQACGNhbkVxdWFsc3EAfgAMUmMJBnQADXByb2R1Y3RQcmVmaXhzcQB+AAyncVnndAAFaGVhZFJzcQB+AAzMLlOFdAAJbm90aWZ5QWxsc3EAfgAMS6e30HQAC3JlYWRSZXNvbHZlc3EAfgAMIUmZt3QABGFkZExzcQB+AAz/W59xdAAMaXNJbnN0YW5jZU9mc3EAfgAMu/gIo3QABjxpbml0PnNxAH4ADPOSLxN0AAVDb25zTHNxAH4ADIFukap0AAVhcHBseXNxAH4ADKON30t0AAJwcnNxAH4ADOb6n/10AAREZWVwc3EAfgAMQL9ndHQABU5vZGUzc3EAfgAMrc/Y1XQABUVtcHR5c3EAfgAMGj0jsHQABlJlZHVjZXNxAH4ADL8/Jyd0AAFsc3EAfgAMXXC+EHQAAj09c3EAfgAMtcrlknQABWNsb25lc3EAfgAMp8vhOnQABGFkZFJzcQB+AAzV6AsfdAAFdGFpbExzcQB+AAyvoaHPdAAGJGluaXQkc3EAfgAMGgUZXnQABnRvVHJlZXNxAH4ADIWhxQJ0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADHaEVU90AARjb3B5c3EAfgAMKYkCFnQABXRhaWxSc3EAfgAMtJ6vmHQACHRvU3RyaW5nc3EAfgAM10A2THQAB3JlZHVjZVJzcQB+AAzwzcUfdAAFZGVlcFJzcQB+AAz88vncdAAFRGlnaXRzcQB+AAy5Jzy5dAACIT1zcQB+AAzpebZAdAAIZ2V0Q2xhc3NzcQB+AAxCfxFCdAAOY29weSRkZWZhdWx0JDFzcQB+AAwfOWAVdAABcnNxAH4ADALLCGR0AAJuZXNxAH4ADMSUrvp0AApGaW5nZXJUcmVlc3EAfgAMrHoHjXQAAmVxc3EAfgAM+uIe0nQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADCKRqQl0AAIjI3NxAH4ADKPqnrl0AAhmaW5hbGl6ZXNxAH4ADCssXlR0AA5wcm9kdWN0RWxlbWVudHNxAH4ADL/U9Jx0AAhoYXNoQ29kZXNxAH4ADFM+8Ap0AAZTaW5nbGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAKYWRwcm8uZGF0YXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+ALR4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+ALMBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJtMAAlpbmhlcml0ZWRxAH4Am0wAB3BhcmVudHNxAH4Am3hxAH4AvHNxAH4AswF1cQB+AJYAAAAAcHNxAH4AswF1cQB+AJYAAAAAcHNxAH4AswF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ALt0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ALtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ANR0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ANVzcQB+AMh0AANBbnlzcQB+AMxzcQB+AM91cQB+ANIAAAACc3EAfgDUdAAFc2NhbGFxAH4A23BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFYWRwcm9zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVD8FVAYdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQC9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQBT6P+KNXxq6Xy8sF0Bnvcw4qtDQ==
+source infos:
+1 items
+/home/scala/2015-apro-code-examples/08/src/test/scala/adpro/FingerTreeSpec.scala -> 
+AAAAAAAAAAA=
+compilations:
+32 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUMhlUZN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUNfs3TR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUNf5WEF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUNhWx3d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPXtotZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPuhesJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPu0Z311cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPu1YZl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPvIKUl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPv6+zV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPv7TmV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPv766B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPv8CvJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwBlux1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwCfUh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwC05N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwER6l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwI0mR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwJDO91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwJipZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwJ9yV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwKTYd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwK8eB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwLM1R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwLfmx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwL/7d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwNJal1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwNspR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwQChh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwQRvV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwVZKt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUPwWWJx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL3NjYWxhLzIwMTUtYXByby1jb2RlLWV4YW1wbGVzLzA4L3RhcmdldC9zY2FsYS0yLjExL3Rlc3QtY2xhc3Nlc3QAAS8=
