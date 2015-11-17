@@ -230,26 +230,25 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
   }
 
   def testListSize(g: Gen[Int]) = {
-    // val linkedA = DoubleLinkedList.range(0,10)
-    // val linkedB = DoubleLinkedList.range(0,100)
-    // val linkedC = DoubleLinkedList.range(0,200)
+    val linkedA = DoubleLinkedList.range(0,10)
+    val linkedB = DoubleLinkedList.range(0,100)
+    val linkedC = DoubleLinkedList.range(0,200)
     val linkedD = DoubleLinkedList.range(0,500)
-    // val treeA: FingerTree[Int] = fingerTreeOfN(10, g).sample.get
-    // val treeB: FingerTree[Int] = fingerTreeOfN(100, g).sample.get
-    // val treeC: FingerTree[Int] = fingerTreeOfN(200, g).sample.get
-    // val treeD: FingerTree[Int] = fingerTreeOfN(500, g).sample.get
+    val treeA: FingerTree[Int] = fingerTreeOfN(10, g).sample.get
+    val treeB: FingerTree[Int] = fingerTreeOfN(100, g).sample.get
+    val treeC: FingerTree[Int] = fingerTreeOfN(200, g).sample.get
+    val treeD: FingerTree[Int] = fingerTreeOfN(500, g).sample.get
 
-    // println(getTime(doStuff(linkedA, g, 0, 10)))
-    // println(getTime(doStuff(treeA, g, 0, 10)))
-    // println(getTime(doStuff(linkedB, g, 0, 100)))
-    // println(getTime(doStuff(treeB, g, 0, 100)))
-    // println(getTime(doStuff(linkedC, g, 0, 200)))
-    // println(getTime(doStuff(treeC, g, 0, 200)))
-    println(getTime(doStuff(linkedD, g, 0, 500)))
-    // println(getTime(doStuff(treeD, g, 0, 500)))
+    println("linkedA " + getTime(doStuff(linkedA, g, 0, 10)))
+    println("treeA " + getTime(doStuff(treeA, g, 0, 10)))
+    println("linkedB " + getTime(doStuff(linkedB, g, 0, 100)))
+    println("treeB " + getTime(doStuff(treeB, g, 0, 100)))
+    println("linkedC " + getTime(doStuff(linkedC, g, 0, 200)))
+    println("treeC " + getTime(doStuff(treeC, g, 0, 200)))
+    println("linkedD " + getTime(doStuff(linkedD, g, 0, 500)))
+    println("treeD " + getTime(doStuff(treeD, g, 0, 500)))
   }
 
-  testListSize(Gen.choose(0,1000))
 
  // val g: Gen[String] = Random.nextString(100)
 
@@ -266,33 +265,34 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
 
     // println(getTime(doStuff(linkedA, g, 0, 10)))
     // println(getTime(doStuff(treeA, g, 0, 10)))
-    println(getTime(doStuff(linkedB, g, 0, 100)))
-    println(getTime(doStuff(treeB, g, 0, 100)))
-    println(getTime(doStuff(linkedC, g, 0, 200)))
-    println(getTime(doStuff(treeC, g, 0, 200)))
-    println(getTime(doStuff(linkedD, g, 0, 500)))
-    println(getTime(doStuff(treeD, g, 0, 500)))
-
-    // println(getTime(doStuff(linkedA, g, 0, 10)))
-    // println(getTime(doStuff(treeA, g, 0, 10)))
-    println(getTime(doStuff(linkedB, g, 0, 100)))
-    println(getTime(doStuff(treeB, g, 0, 100)))
-    println(getTime(doStuff(linkedC, g, 0, 200)))
-    println(getTime(doStuff(treeC, g, 0, 200)))
-    println(getTime(doStuff(linkedD, g, 0, 500)))
-    println(getTime(doStuff(treeD, g, 0, 500)))
-
-    // println(getTime(doStuff(linkedA, g, 0, 10)))
-    // println(getTime(doStuff(treeA, g, 0, 10)))
-    println(getTime(doStuff(linkedB, g, 0, 100)))
-    println(getTime(doStuff(treeB, g, 0, 100)))
-    println(getTime(doStuff(linkedC, g, 0, 200)))
-    println(getTime(doStuff(treeC, g, 0, 200)))
-    println(getTime(doStuff(linkedD, g, 0, 500)))
-    println(getTime(doStuff(treeD, g, 0, 500)))
+    println("linkedB " + getTime(doStuff(linkedB, g, 0, 100)))
+    println("treeB " + getTime(doStuff(treeB, g, 0, 100)))
+    println("linkedC " + getTime(doStuff(linkedC, g, 0, 200)))
+    println("treeC " + getTime(doStuff(treeC, g, 0, 200)))
+    println("linkedD " + getTime(doStuff(linkedD, g, 0, 500)))
+    println("treeD " + getTime(doStuff(treeD, g, 0, 500)))
  }
 
- // testListContent(Random.nextString(100))
+
+
+ def startTest = {
+
+  // testListSize(Gen.choose(0,1000))
+  // testListSize(Gen.choose(0,1000))
+  // testListSize(Gen.choose(0,1000))
+  println("---------------------------")
+  testListContent(Random.nextString(100))
+  testListContent(Random.nextString(100))
+  testListContent(Random.nextString(100))
+  println("---------------------------")
+  // testListContent(Random.nextString(10))
+  // testListContent(Random.nextString(10000))
+  testListContent(Random.nextString(1000000))
+
+
+ }
+
+ startTest
 
 
 

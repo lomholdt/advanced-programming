@@ -312,24 +312,28 @@ object data {
  *
  * Then report the string numbers in the table like the above
  *
+ * Short: 10 chars
+ * Medium: 10.000 chars
+ * Very Long: 1.000.000 chars
+ *
  * FingerTree:
- * Size of List \ Size of String | short | medium | very long
+ * Size of List \ Size of String | short   | medium  | very long
  * ----------------------------------------------------------
- * enter list size               |       |        |
+ * enter list size           100 |  622466 | 3406342 | 1195361
  * ----------------------------------------------------------
- * enter list size               |       |        |
+ * enter list size           200 | 1082065 | 1360083 | 1332906
  * ----------------------------------------------------------
- * enter list size               |       |        |
+ * enter list size           500 | 3243676 | 3466804 | 4109085
  * ----------------------------------------------------------
  *
- * DoubleLinkedList
- * Size of List \ Size of String | short | medium | very long
+ * DoubleLinkedList:
+ * Size of List \ Size of String | short       | medium      | very long
  * ----------------------------------------------------------
- * enter list size               |       |        |
+ * enter list size           100 |    72270266 |    57696685 |    34818726
  * ----------------------------------------------------------
- * enter list size               |       |        |
+ * enter list size           200 |   660956778 |   334020754 |   330080663
  * ----------------------------------------------------------
- * enter list size               |       |        |
+ * enter list size           500 | 22679214392 | 11396034018 | 16460369967
  * ----------------------------------------------------------
  *
  * Repeat the table for FingerTrees and for doubly linked list.  Remember to
