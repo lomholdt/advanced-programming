@@ -1,6 +1,11 @@
 package adpro
 import scala.language.higherKinds
 
+// Niels Schrøder Pedersen (nscp@itu.dk)
+// Jonas Tonny Nielsen (jtni@itu.dk)
+// Jonas Lomholdt (jlom@itu.dk)
+// 17/11-2016
+
 // The implementation is based on Section 3 of the paper.
 //
 // This implementation is designed to be eager, following the regular strictness
@@ -360,6 +365,6 @@ object data {
  * It seems that the DoubleLinkedList does not scale well with increased 
  * input size, as where the FingerTree doesn't seem to care much about it.
  * Here it is easy to see, why DoubleLinkedList has been deprecated.
- *    
+ *
  */
 
