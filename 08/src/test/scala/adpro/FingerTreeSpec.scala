@@ -190,8 +190,7 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
 
 
 
-  //  Our super dupa tests
-
+  //  Our test
 
 
   def doStuff [A] (l: DoubleLinkedList[A], content: Gen[A], c: Int, n: Int): DoubleLinkedList[A] = 
@@ -249,7 +248,6 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
     println("treeD " + getTime(doStuff(treeD, g, 0, 500)))
   }
 
-
  // val g: Gen[String] = Random.nextString(100)
 
  def testListContent(g: Gen[String]) = {
@@ -273,13 +271,11 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
     println("treeD " + getTime(doStuff(treeD, g, 0, 500)))
  }
 
-
-
  def startTest = {
 
-  // testListSize(Gen.choose(0,1000))
-  // testListSize(Gen.choose(0,1000))
-  // testListSize(Gen.choose(0,1000))
+  testListSize(Gen.choose(0,1000))
+  testListSize(Gen.choose(0,1000))
+  testListSize(Gen.choose(0,1000))
   println("---------------------------")
   testListContent(Random.nextString(100))
   testListContent(Random.nextString(100))
@@ -293,7 +289,5 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
  }
 
  startTest
-
-
 
 }
