@@ -297,19 +297,22 @@ object data {
  * lengths of integer lists (for DoubleLinkedList and for Finger Trees). Before
  * the table write approximately 100 words explaining what you measured.
  *
+ * Time is in us
+ *
  * Size | FingerTree time | DoubleLinkedList
  * -----------------------------------------
- *      |                 |
+ *   10 |         1564602 |          230662
  * -----------------------------------------
- *      |                 |
+ *  100 |         1439853 |        71036749
  * -----------------------------------------
- *      |                 |
+ *  200 |         3088309 |       491663131
  * -----------------------------------------
- *      |                 |
+ *  500 |         8614534 |     24832632650
  * -----------------------------------------
  *
  * Then report the string numbers in the table like the above
  *
+ * FingerTree:
  * Size of List \ Size of String | short | medium | very long
  * ----------------------------------------------------------
  * enter list size               |       |        |
@@ -317,7 +320,17 @@ object data {
  * enter list size               |       |        |
  * ----------------------------------------------------------
  * enter list size               |       |        |
- * ----------------------------------------------------------A
+ * ----------------------------------------------------------
+ *
+ * DoubleLinkedList
+ * Size of List \ Size of String | short | medium | very long
+ * ----------------------------------------------------------
+ * enter list size               |       |        |
+ * ----------------------------------------------------------
+ * enter list size               |       |        |
+ * ----------------------------------------------------------
+ * enter list size               |       |        |
+ * ----------------------------------------------------------
  *
  * Repeat the table for FingerTrees and for doubly linked list.  Remember to
  * include units of time, and of size in all tables.  Replace list sizes, and

@@ -14,6 +14,9 @@ import org.scalacheck._
 import org.scalacheck.Prop._
 import Arbitrary.arbitrary
 
+import scala.collection.mutable.DoubleLinkedList
+import scala.util.Random
+
 import language.implicitConversions
 
 
@@ -37,7 +40,11 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
   // tree of this size using fingerTreeOfN (can be done using flatMap or for
   // comprehensions).
   def fingerTree[A] (gen: Gen[A]) :Gen[FingerTree[A]] = {
-    Gen.choose(0,100).flatMap(x => fingerTreeOfN(x, gen));
+    // Gen.choose(0,100).flatMap(x => fingerTreeOfN(x, gen));
+    for{
+      x <- Gen.choose(0,100)
+      y <- fingerTreeOfN(x, gen)
+    } yield y
   }
 
   // The same as above but as an instance of Arbitrary
@@ -45,7 +52,6 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
   //
   implicit def arbFingerTree[A] (implicit arb: Arbitrary[A]) =
     Arbitrary[FingerTree[A]](fingerTree[A] (arbitrary[A]))
-
 
 
   behavior of "basic FingerTree constructors"
@@ -178,6 +184,116 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
       t.tailR.tailR.headR == l.tail.tail.head
     }
   }
+
+
+
+
+
+
+  //  Our super dupa tests
+
+
+
+  def doStuff [A] (l: DoubleLinkedList[A], content: Gen[A], c: Int, n: Int): DoubleLinkedList[A] = 
+    if (c < n) {
+      // println(c)
+      // println(l.toList)
+      val rand = Gen.choose(0,3)
+      rand.sample.get match {
+        case 0 => doStuff(content.sample.get +: l, content, c+1, n) // addL
+        case 1 => doStuff(l :+ content.sample.get, content, c+1, n) // addR
+        case 2 => doStuff(l.tail, content, c+1, n) // popL
+        case 3 => doStuff(l.init, content, c+1, n) // popR
+      }
+    }
+    else l
+
+  def doStuff [A] (t: FingerTree[A], content: Gen[A], c: Int, n: Int): FingerTree[A] = 
+    if (c < n) {
+      // println(c)
+      // println(t.toList)
+      val rand = Gen.choose(0,3)
+      rand.sample.get match {
+        case 0 => doStuff(t.addL(content.sample.get), content, c+1, n) // addL
+        case 1 => doStuff(t.addR(content.sample.get), content, c+1, n) // addR
+        case 2 => doStuff(t.tailL, content, c+1, n) // popL
+        case 3 => doStuff(t.tailR, content, c+1, n) // popR
+      }
+    }
+    else t
+
+
+  def getTime (f: => Unit): Long = {
+    val start = System.nanoTime()
+    f
+    System.nanoTime() - start
+  }
+
+  def testListSize(g: Gen[Int]) = {
+    // val linkedA = DoubleLinkedList.range(0,10)
+    // val linkedB = DoubleLinkedList.range(0,100)
+    // val linkedC = DoubleLinkedList.range(0,200)
+    val linkedD = DoubleLinkedList.range(0,500)
+    // val treeA: FingerTree[Int] = fingerTreeOfN(10, g).sample.get
+    // val treeB: FingerTree[Int] = fingerTreeOfN(100, g).sample.get
+    // val treeC: FingerTree[Int] = fingerTreeOfN(200, g).sample.get
+    // val treeD: FingerTree[Int] = fingerTreeOfN(500, g).sample.get
+
+    // println(getTime(doStuff(linkedA, g, 0, 10)))
+    // println(getTime(doStuff(treeA, g, 0, 10)))
+    // println(getTime(doStuff(linkedB, g, 0, 100)))
+    // println(getTime(doStuff(treeB, g, 0, 100)))
+    // println(getTime(doStuff(linkedC, g, 0, 200)))
+    // println(getTime(doStuff(treeC, g, 0, 200)))
+    println(getTime(doStuff(linkedD, g, 0, 500)))
+    // println(getTime(doStuff(treeD, g, 0, 500)))
+  }
+
+  testListSize(Gen.choose(0,1000))
+
+ // val g: Gen[String] = Random.nextString(100)
+
+ def testListContent(g: Gen[String]) = {
+    // val linkedA: DoubleLinkedList[String] = DoubleLinkedList.fill(10)(g.sample.get)
+    val linkedB: DoubleLinkedList[String] = DoubleLinkedList.fill(100)(g.sample.get)
+    val linkedC: DoubleLinkedList[String] = DoubleLinkedList.fill(200)(g.sample.get)
+    val linkedD: DoubleLinkedList[String] = DoubleLinkedList.fill(500)(g.sample.get)
+
+    // val treeA: FingerTree[String] = fingerTreeOfN(10, g).sample.get
+    val treeB: FingerTree[String] = fingerTreeOfN(100, g).sample.get
+    val treeC: FingerTree[String] = fingerTreeOfN(200, g).sample.get
+    val treeD: FingerTree[String] = fingerTreeOfN(500, g).sample.get
+
+    // println(getTime(doStuff(linkedA, g, 0, 10)))
+    // println(getTime(doStuff(treeA, g, 0, 10)))
+    println(getTime(doStuff(linkedB, g, 0, 100)))
+    println(getTime(doStuff(treeB, g, 0, 100)))
+    println(getTime(doStuff(linkedC, g, 0, 200)))
+    println(getTime(doStuff(treeC, g, 0, 200)))
+    println(getTime(doStuff(linkedD, g, 0, 500)))
+    println(getTime(doStuff(treeD, g, 0, 500)))
+
+    // println(getTime(doStuff(linkedA, g, 0, 10)))
+    // println(getTime(doStuff(treeA, g, 0, 10)))
+    println(getTime(doStuff(linkedB, g, 0, 100)))
+    println(getTime(doStuff(treeB, g, 0, 100)))
+    println(getTime(doStuff(linkedC, g, 0, 200)))
+    println(getTime(doStuff(treeC, g, 0, 200)))
+    println(getTime(doStuff(linkedD, g, 0, 500)))
+    println(getTime(doStuff(treeD, g, 0, 500)))
+
+    // println(getTime(doStuff(linkedA, g, 0, 10)))
+    // println(getTime(doStuff(treeA, g, 0, 10)))
+    println(getTime(doStuff(linkedB, g, 0, 100)))
+    println(getTime(doStuff(treeB, g, 0, 100)))
+    println(getTime(doStuff(linkedC, g, 0, 200)))
+    println(getTime(doStuff(treeC, g, 0, 200)))
+    println(getTime(doStuff(linkedD, g, 0, 500)))
+    println(getTime(doStuff(treeD, g, 0, 500)))
+ }
+
+ // testListContent(Random.nextString(100))
+
 
 
 }
