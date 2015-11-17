@@ -238,14 +238,23 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
     val treeC: FingerTree[Int] = fingerTreeOfN(200, g).sample.get
     val treeD: FingerTree[Int] = fingerTreeOfN(500, g).sample.get
 
-    println("linkedA " + getTime(doStuff(linkedA, g, 0, 10)))
-    println("treeA " + getTime(doStuff(treeA, g, 0, 10)))
-    println("linkedB " + getTime(doStuff(linkedB, g, 0, 100)))
-    println("treeB " + getTime(doStuff(treeB, g, 0, 100)))
-    println("linkedC " + getTime(doStuff(linkedC, g, 0, 200)))
-    println("treeC " + getTime(doStuff(treeC, g, 0, 200)))
-    println("linkedD " + getTime(doStuff(linkedD, g, 0, 500)))
-    println("treeD " + getTime(doStuff(treeD, g, 0, 500)))
+    println("linkedA " + getAverage(getTime(doStuff(linkedA, g, 0, 10))))
+    println("treeA " + getAverage(getTime(doStuff(treeA, g, 0, 10))))
+    println("linkedB " + getAverage(getTime(doStuff(linkedB, g, 0, 100))))
+    println("treeB " + getAverage(getTime(doStuff(treeB, g, 0, 100))))
+    println("linkedC " + getAverage(getTime(doStuff(linkedC, g, 0, 200))))
+    println("treeC " + getAverage(getTime(doStuff(treeC, g, 0, 200))))
+    println("linkedD " + getAverage(getTime(doStuff(linkedD, g, 0, 500))))
+    println("treeD " + getAverage(getTime(doStuff(treeD, g, 0, 500))))
+  }
+
+  def getAverage(f: => Long): Long = {
+    var sum: Long = 0
+    val n = 5
+    for (i <- 0 to n){
+      sum = sum + f
+    }
+    sum / n
   }
 
  // val g: Gen[String] = Random.nextString(100)
@@ -263,12 +272,12 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
 
     // println(getTime(doStuff(linkedA, g, 0, 10)))
     // println(getTime(doStuff(treeA, g, 0, 10)))
-    println("linkedB " + getTime(doStuff(linkedB, g, 0, 100)))
-    println("treeB " + getTime(doStuff(treeB, g, 0, 100)))
-    println("linkedC " + getTime(doStuff(linkedC, g, 0, 200)))
-    println("treeC " + getTime(doStuff(treeC, g, 0, 200)))
-    println("linkedD " + getTime(doStuff(linkedD, g, 0, 500)))
-    println("treeD " + getTime(doStuff(treeD, g, 0, 500)))
+    println("linkedB " + getAverage(getTime(doStuff(linkedB, g, 0, 100))))
+    println("treeB " + getAverage(getTime(doStuff(treeB, g, 0, 100))))
+    println("linkedC " + getAverage(getTime(doStuff(linkedC, g, 0, 200))))
+    println("treeC " + getAverage(getTime(doStuff(treeC, g, 0, 200))))
+    println("linkedD " + getAverage(getTime(doStuff(linkedD, g, 0, 500))))
+    println("treeD " + getAverage(getTime(doStuff(treeD, g, 0, 500))))
  }
 
  def startTest = {
@@ -276,13 +285,13 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
   testListSize(Gen.choose(0,1000))
   testListSize(Gen.choose(0,1000))
   testListSize(Gen.choose(0,1000))
-  println("---------------------------")
+  println("-------------JUST-IN-TIME--------------")
   testListContent(Random.nextString(100))
-  testListContent(Random.nextString(100))
-  testListContent(Random.nextString(100))
-  println("---------------------------")
-  // testListContent(Random.nextString(10))
-  // testListContent(Random.nextString(10000))
+  // testListContent(Random.nextString(100))
+  // testListContent(Random.nextString(100))
+  println("--------------START-TEST-------------")
+  testListContent(Random.nextString(10))
+  testListContent(Random.nextString(10000))
   testListContent(Random.nextString(1000000))
 
 

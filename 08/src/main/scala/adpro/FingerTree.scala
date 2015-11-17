@@ -297,43 +297,52 @@ object data {
  * lengths of integer lists (for DoubleLinkedList and for Finger Trees). Before
  * the table write approximately 100 words explaining what you measured.
  *
+ * ==========================================================================
+ * We've measured the time it takes to do the operations addL, addR, popL and
+ * popR 5 times in random order on different size FingerTrees and 
+ * DoubleLinkedList. We measure the time in nano seconds with start right before
+ * we call the test function and stop right after the function is terminated.
+ * The results shows that DoubleLinkedList becomes remarkably slower as
+ * the size increases compared to FingerTree, which has a significantly lower 
+ * order of growth.
+ *
  * Time is in us
  *
  * Size | FingerTree time | DoubleLinkedList
  * -----------------------------------------
- *   10 |         1564602 |          230662
+ *   10 |           51915 |           56278
  * -----------------------------------------
- *  100 |         1439853 |        71036749
+ *  100 |         2044325 |        66554384
  * -----------------------------------------
- *  200 |         3088309 |       491663131
+ *  200 |         1836266 |       617108318
  * -----------------------------------------
- *  500 |         8614534 |     24832632650
+ *  500 |         6829843 |     27237805879
  * -----------------------------------------
  *
  * Then report the string numbers in the table like the above
  *
- * Short: 10 chars
- * Medium: 10.000 chars
+ * Short:            10 chars
+ * Medium:       10.000 chars
  * Very Long: 1.000.000 chars
  *
  * FingerTree:
  * Size of List \ Size of String | short   | medium  | very long
  * ----------------------------------------------------------
- * enter list size           100 |  622466 | 3406342 | 1195361
+ * enter list size           100 |  806488 |  721805 |  247305
  * ----------------------------------------------------------
- * enter list size           200 | 1082065 | 1360083 | 1332906
+ * enter list size           200 | 5279387 | 1259447 | 1955842
  * ----------------------------------------------------------
- * enter list size           500 | 3243676 | 3466804 | 4109085
+ * enter list size           500 | 1453064 | 1234743 |  959729
  * ----------------------------------------------------------
  *
  * DoubleLinkedList:
  * Size of List \ Size of String | short       | medium      | very long
  * ----------------------------------------------------------
- * enter list size           100 |    72270266 |    57696685 |    34818726
+ * enter list size           100 |    53116252 |    43295251 |    28343400
  * ----------------------------------------------------------
- * enter list size           200 |   660956778 |   334020754 |   330080663
+ * enter list size           200 |   446079333 |   455404970 |   419902950
  * ----------------------------------------------------------
- * enter list size           500 | 22679214392 | 11396034018 | 16460369967
+ * enter list size           500 | 16297745133 | 18126477930 | 20715856275
  * ----------------------------------------------------------
  *
  * Repeat the table for FingerTrees and for doubly linked list.  Remember to
@@ -341,5 +350,16 @@ object data {
  * short/medium/very-long above with concrete numbers.
  *
  * Finally summarize your conclusion in approximately 100 words.
+ * 
+ * We ran the test 5 times and took the average of that.
+ * We get inconsistent results on almost every run. Particularly 
+ * on the 100 and 200 sizes, where the times differ radically.
+ * The tendency is that performing operations on FingerTrees of size 100 
+ * is slower than lists of size 200, and also lists of size 500 is faster
+ * than lists of size 200. 
+ * It seems that the DoubleLinkedList does not scale well with increased 
+ * input size, as where the FingerTree doesn't seem to care much about it.
+ * Here it is easy to see, why DoubleLinkedList has been deprecated.
+ *    
  */
 
