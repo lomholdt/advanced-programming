@@ -46,21 +46,24 @@ import monocle.function.{index,each,filterIndex}
 
 object Lenses {
 
-  // Exercise 0. Study the implementatio of lens l1 below and compare it to the
+  // Exercise 0. Study the implementation of lens l1 below and compare it to the
   // first example in Foster et al. (Page 6).
   // page 6 in Foster et al.
 
   val l1 = Lens[(String,Int), String] (_._1) (s1 => _ => (s1,0))
 
+  // l↗(s,n) = s       
+  // l↘(s′, (s,n)) = (s′,0)
+
   // Complete the second example from page 6, and the example from page 7 below:
 
   // page 6 in Foster et al.:
 
-  // val l2 : Lens[String, (String,Int)] = TODO
+  val l2 : Lens[String, (String,Int)] = Lens[String, (String,Int)] ((_,0)) (s1 => _ => s1._1)
 
   // page 7 in Foster et al.
 
-  // val l3 : Lens[(String,Int), String] = TODO
+  val l3 : Lens[(String,Int), String] = Lens[(String,Int), String] (_._1) (s => s1 => if (s == s1._1) (s,s1._2) else (s,s1._2+1) )
 
 
 
@@ -82,14 +85,17 @@ object Lenses {
   // and stripping the choice of A from the Either value. The type of this value
   // is Lens[Either[A, A], A].
   //
-  // Monocle prefers to use A \/ B instead od Either[A,B].  This is practically
+  // Monocle prefers to use A \/ B instead of Either[A,B].  This is practically
   // the same thing (\/ is introduced by scalaz, and Either comes in the
   // standard library). "-\/" is the name of the left constructor and "\/-" is
   // the name of the right constructor (you can pattern match against them). We
   // use the infix constructor in this exercise, instead of Either.  All the
   // imports in the project are already set up.
 
-  // def codiag[A]: Lens[A \/ A, A] = ... TODO (ca 10-15 lines)
+  // def codiag[A]: Lens[A \/ A, A] = {  //... TODO (ca 10-15 lines)
+
+
+  // }  
   //
   // Some codiag tests are found in LensesSpec.  Test your solution.
 
@@ -106,7 +112,10 @@ object Lenses {
   //
   // Translate morris' implementation of codiag to Monocle and test it.
 
-  // def codiag1[A]: Lens[A \/ A, A] = TODO ... (ca. 1 line)
+  def codiag1[A]: Lens[A \/ A, A] = {
+    val id = Lens[A,A](Lens.id.get)(a => _ => a)
+    lensChoice.choice(id, id)
+  }
   //
   // Test this implementation uncommenting tests in LensesSpec.scala
 
@@ -142,7 +151,8 @@ object Lenses {
   // the copy.  For instance itu.copy (students = itu.students.tail) creates a
   // copy of ITU without the first student.
 
-  // val itu1 = ... TODO (ca. 4 lines)
+  val itu1 = itu.copy(
+    students = itu.students + ("Alex" -> Address("9100", "Denmark")))
 
   // There is a test in LensesSpec to check whether  you did what expected.
   //
@@ -158,15 +168,15 @@ object Lenses {
   //
   // a) design a lense that accesses zipcode from Address objects:
 
-  // val _zipcode: Lens[Address, ZipCode] = ... TODO (1-2 lines)
+  val _zipcode: Lens[Address, ZipCode] = Lens[Address, ZipCode](_.zipcode)(z => a => a.copy(zipcode = z))
 
   // b) design a lense that accesses the students collection from university:
 
-  // val _students: Lens[University, Students] = ... TODO (1-2 lines)
+  val _students: Lens[University, Students] = Lens[University, Students](_.students)(s => u => u.copy(students = s))
 
   // c) Use the following index lense (name)  from Monocle:
   //
-  // index(name) :Optional[Map[String,Address],Address]
+  index("Alex") :Optional[Map[String,Address],Address]
   //
   // This lens focuses our view on the entry in a map with a given index.
   // Optional in the Monocle terminology is a partial lense in the terminology
@@ -176,7 +186,7 @@ object Lenses {
   // way (use the infix binary operator ^|-? to compose a lense with an
   // optional, and use ^|-> to compose the optional with a lense).
 
-  // val itu2 :University = ... TODO (1-2) lines
+  val itu2 :University = (_students ^|-? index("Alex") ^|-> _zipcode).modify(_ => "9100")(itu)
 
   // There is a test in LensesSpec to test whether what you have built behaves
   // as expected.
@@ -223,9 +233,11 @@ object Lenses {
   // - a lense that extract the country from an address object (_address, you
   // will need to write that one, as we did not create it yet).
 
-  //  val _country :Lens[Address,String] = TODO (1 line)
-  //
-  //  val itu3 :University = ... TODO (1 line)
+   val _country :Lens[Address,String] = Lens[Address, String](_.country)(c => a => a.copy(country = c))
+
+   val _address :Lens[Students,Address] = Lens[Students, Address](_.values)(c => a => a.copy(address = c))
+
+   val itu3 :University = (_students ^|->> _address ^|-> _country).modify(_.capitalize)(itu)
 
   // LensesSpec.scala has a test to see if you succeeded.
   //
