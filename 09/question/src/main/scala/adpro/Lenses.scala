@@ -92,11 +92,21 @@ object Lenses {
   // use the infix constructor in this exercise, instead of Either.  All the
   // imports in the project are already set up.
 
-  // def codiag[A]: Lens[A \/ A, A] = {  //... TODO (ca 10-15 lines)
+  def get[A] (l: A \/ A) :A = l match {
+    case -\/(l) => l 
+    case \/-(l) => l
+  } 
 
+  def set[A] (a :A)(l: A \/ A) = l match {
+    case -\/(l) => -\/(a)
+    case \/-(l) => \/-(a)
+  }
 
-  // }  
-  //
+  def codiag[A]: Lens[A \/ A, A] = Lens[A \/ A, A](get)(set) 
+
+  //... TODO (ca 10-15 lines)
+
+  
   // Some codiag tests are found in LensesSpec.  Test your solution.
 
   // Exercise 3: Section 5.3 of [Morris  2012] describes a choice combinator for
@@ -235,9 +245,7 @@ object Lenses {
 
    val _country :Lens[Address,String] = Lens[Address, String](_.country)(c => a => a.copy(country = c))
 
-   val _address :Lens[Students,Address] = Lens[Students, Address](_.values)(c => a => a.copy(address = c))
-
-   val itu3 :University = (_students ^|->> _address ^|-> _country).modify(_.capitalize)(itu)
+   val itu3: University = (_students ^|->> each ^|-> _country).modify(_.toUpperCase)(itu)
 
   // LensesSpec.scala has a test to see if you succeeded.
   //
@@ -256,9 +264,9 @@ object Lenses {
   // traversal, like 'each' above. Recall that ^|->> is used to compose (append)
   // a traversal and ^|-> is used to append a lense.
 
-  // val itu4 = ... ca. 3 lines TODO
+  val itu4 = (_students ^|->> filterIndex{k: String => k.contains("x")} ^|-> _country).modify(_.toUpperCase)(itu)
 
-  // println (itu4) [cheap testing]
+  println (itu4) //[cheap testing]
 
 
   // Exercise 8.  We are returning to construction of basic lenses.  Implement a
@@ -270,7 +278,10 @@ object Lenses {
   // get: List[A] => Option[A]
   // set: A => List[A] => List[A]
   //
-  // def setIth[A] (n: Integer) :Optional[List[A],A] = ... (1-2 lines)
+  def setIth[A] (n: Integer) :Optional[List[A],A] = {
+    Optional[List[A],A](l => if (n < l.length) Some(l(n)) else None) (a => b => if (n >= b.length) b else b.updated(n, a))
+  }
+  //... (1-2 lines)
 
 
 
@@ -280,7 +291,10 @@ object Lenses {
   // element, and extend the list approprietly. In such case we obtain a total
   // lense. Try this too:
 
-  // def setIth1[A] (n: Integer, default: A) :Lens[List[A],A] = .. TODO ca. 12 lines
+  // def setIth1[A] (n: Integer, default: A) :Lens[List[A],A] = {}
+
+
+  //.. TODO ca. 12 lines
 
 
 
@@ -300,10 +314,10 @@ object Lenses {
   // For a simple example, use sethIth below to increment the third element on a
   // list list0
 
-  // val list0 = List[Int](1,2,3,4,5,6)
-  // val list1 = ... TODO
-  // println (list0)
-  // println (list1)
+  val list0 = List[Int](1,2,3,4,5,6)
+  val list1 = (list0 applyOptional setIth(2) modify(_ + 1))
+  println (list0)
+  println (list1)
 
 }
 

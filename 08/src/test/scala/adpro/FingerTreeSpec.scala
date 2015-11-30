@@ -185,6 +185,22 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
     }
   }
 
+   it should "have the right suffix on any tree larger than 3 (15)" in check {
+    val list3plus = Gen.choose(3,100) flatMap { Gen.listOfN(_,arbitrary[Int]) }
+    forAll (list3plus) { (l: List[Int]) =>
+      val t = Digit.toTree (l.reverse)
+      ("the last element" |: t.headR ==  l.head) &&
+      ("2nd last element" |: t.tailR.headR == l.tail.head) // &&
+    }
+  }
+
+  it should "not have the List(2, 1, 0, 0, 0, 0) regression (16)" in {
+    val l = List(2, 1, 0, 0, 0, 0)
+    val t = Digit.toTree (l.reverse)
+    assertResult (l.head,      "as 1st element") (t.headR)
+    assertResult (l.tail.head, "as 2nd element") (t.tailR.headR)
+  }
+
 
 
 
@@ -297,6 +313,6 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
 
  }
 
- startTest
+ // startTest
 
 }
