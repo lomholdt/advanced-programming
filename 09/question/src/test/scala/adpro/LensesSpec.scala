@@ -140,7 +140,7 @@ class LensesSpec extends FlatSpec with Checkers {
   }
 
    "setIth" should behave like veryWellBehavedPartialLense (setIth[Int](5))
-   // "setIth1" should behave like veryWellBehavedTotalLense (setIth1[Int](5,-1)) // fails GetPut as expected
+   "setIth1" should behave like veryWellBehavedTotalLense (setIth1[Int](5,-1)) // fails GetPut as expected
 }
 
 

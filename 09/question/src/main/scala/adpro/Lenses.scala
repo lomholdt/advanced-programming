@@ -291,7 +291,15 @@ object Lenses {
   // element, and extend the list approprietly. In such case we obtain a total
   // lense. Try this too:
 
-  // def setIth1[A] (n: Integer, default: A) :Lens[List[A],A] = {}
+  def setIth1[A] (n: Integer, default: A) :Lens[List[A],A] = {
+  Lens[List[A],A] (l => if (n < l.length) l(n) else default) (e => l => 
+    if (n < l.length) {
+      l.updated(n, e)
+    } else {
+      val diff: List[A] = List.fill(n - l.length)(default)
+      l ++ diff ++ List(e)
+    })
+  }
 
 
   //.. TODO ca. 12 lines
