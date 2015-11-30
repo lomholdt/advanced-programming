@@ -155,19 +155,19 @@ class LensesSpec extends FlatSpec with Checkers {
 // Find the laws for Optionals here:
 // https://github.com/julien-truffaut/Monocle/blob/master/core/src/main/scala/monocle/law/OptionalLaws.scala
 
-// import org.typelevel.discipline.scalatest.Discipline
+import org.typelevel.discipline.scalatest.Discipline
 
-// class LensesSuite extends FunSuite with Discipline {
+class LensesSuite extends FunSuite with Discipline {
 
-//   import scalaz._
-//   import Scalaz._
+  import scalaz._
+  import Scalaz._
 
-//   checkAll("codiag[Int]", monocle.law.discipline.LensTests(codiag[Int]))
-//   checkAll("l1", monocle.law.discipline.LensTests(l1))
-//   checkAll("l2", monocle.law.discipline.LensTests(l2))
-//   checkAll("l3", monocle.law.discipline.LensTests(l3))
+  checkAll("codiag[Int]", monocle.law.discipline.LensTests(codiag[Int]))
+  checkAll("l1", monocle.law.discipline.LensTests(l1))
+  checkAll("l2", monocle.law.discipline.LensTests(l2))
+  checkAll("l3", monocle.law.discipline.LensTests(l3))
 
-//   checkAll("setIth", monocle.law.discipline.OptionalTests(setIth[Int] (5)))
-//   checkAll("setIth1", monocle.law.discipline.LensTests(setIth1[Int] (13,-1)))
+  checkAll("setIth", monocle.law.discipline.OptionalTests(setIth[Int] (5)))
+  checkAll("setIth1", monocle.law.discipline.LensTests(setIth1[Int] (13,-1)))
 
-// }
+}

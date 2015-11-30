@@ -50,7 +50,7 @@ object Lenses {
   // first example in Foster et al. (Page 6).
   // page 6 in Foster et al.
 
-  val l1 = Lens[(String,Int), String] (_._1) (s1 => _ => (s1,0))
+  val l1 = Lens[(String,Int), String] ((_._1)) (s1 => _ => (s1,0))
 
   // l↗(s,n) = s       
   // l↘(s′, (s,n)) = (s′,0)
@@ -92,20 +92,17 @@ object Lenses {
   // use the infix constructor in this exercise, instead of Either.  All the
   // imports in the project are already set up.
 
-  def get[A] (l: A \/ A) :A = l match {
-    case -\/(l) => l 
+  def codiagGet[A] (l: A \/ A) :A = l match {
+    case -\/(l) => l
     case \/-(l) => l
-  } 
+  }
 
-  def set[A] (a :A)(l: A \/ A) = l match {
+  def codiagSet[A] (a :A)(l: A \/ A) = l match {
     case -\/(l) => -\/(a)
     case \/-(l) => \/-(a)
   }
 
-  def codiag[A]: Lens[A \/ A, A] = Lens[A \/ A, A](get)(set) 
-
-  //... TODO (ca 10-15 lines)
-
+  def codiag[A]: Lens[A \/ A, A] = Lens[A \/ A, A](codiagGet)(codiagSet)
   
   // Some codiag tests are found in LensesSpec.  Test your solution.
 
@@ -186,7 +183,7 @@ object Lenses {
 
   // c) Use the following index lense (name)  from Monocle:
   //
-  index("Alex") :Optional[Map[String,Address],Address]
+  // index(name) :Optional[Map[String,Address],Address]
   //
   // This lens focuses our view on the entry in a map with a given index.
   // Optional in the Monocle terminology is a partial lense in the terminology
@@ -253,8 +250,11 @@ object Lenses {
   // lenses/traversals above, and not in the test? What is the difference
   // between the code in the test and the code above that influences this? Write
   // the answer below:
-  //
-  // ... ... ...
+  // The code above relies on our implementation of the _students and _country lenses to be correct.
+  // The code in the test does not rely on our implementation and only uses Scalas standard library 
+  // to iterate the University (with map and forAll methods). This way we can 'sepparate concerns' by 
+  // testing the result of our lenses modification without actually using them.
+
 
 
 
@@ -281,9 +281,6 @@ object Lenses {
   def setIth[A] (n: Integer) :Optional[List[A],A] = {
     Optional[List[A],A](l => if (n < l.length) Some(l(n)) else None) (a => b => if (n >= b.length) b else b.updated(n, a))
   }
-  //... (1-2 lines)
-
-
 
   // In the above you will need to decide what to do with the setter if n is
   // greater than the length of the list.  One option is to do nothing, just
@@ -300,11 +297,6 @@ object Lenses {
       l ++ diff ++ List(e)
     })
   }
-
-
-  //.. TODO ca. 12 lines
-
-
 
   // Exercise 9. To test setIth (above) you will also need to implement new
   // PutGet, GetPut and PutPut laws that work for Optionals. Add the tests to
@@ -326,6 +318,10 @@ object Lenses {
   val list1 = (list0 applyOptional setIth(2) modify(_ + 1))
   println (list0)
   println (list1)
+
+
+  // val listX = (list0 applyLens setIth1(8, 999) set 555)
+  // println(listX)
 
 }
 
