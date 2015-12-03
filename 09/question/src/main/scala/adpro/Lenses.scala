@@ -250,6 +250,7 @@ object Lenses {
   // lenses/traversals above, and not in the test? What is the difference
   // between the code in the test and the code above that influences this? Write
   // the answer below:
+
   // The code above relies on our implementation of the _students and _country lenses to be correct.
   // The code in the test does not rely on our implementation and only uses Scalas standard library 
   // to iterate the University (with map and forAll methods). This way we can 'sepparate concerns' by 
@@ -264,7 +265,7 @@ object Lenses {
   // traversal, like 'each' above. Recall that ^|->> is used to compose (append)
   // a traversal and ^|-> is used to append a lense.
 
-  val itu4 = (_students ^|->> filterIndex{k: String => k.contains("x")} ^|-> _country).modify(_.toUpperCase)(itu)
+  val itu4 = (_students ^|->> filterIndex {k: String => k.contains("x")} ^|-> _country).modify(_.toUpperCase)(itu)
 
   println (itu4) //[cheap testing]
 
@@ -318,10 +319,6 @@ object Lenses {
   val list1 = (list0 applyOptional setIth(2) modify(_ + 1))
   println (list0)
   println (list1)
-
-
-  // val listX = (list0 applyLens setIth1(8, 999) set 555)
-  // println(listX)
 
 }
 
