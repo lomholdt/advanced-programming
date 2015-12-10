@@ -1,0 +1,82 @@
+/**
+ * Adpro - Java Streams
+ * By 	Niels Schrøder Pedersen (nscp@itu.dk), 
+ * 		Jonas Tonny Nielsen (jtni@itu.dk),
+ *		Jonas Lomholdt (jlom@itu.dk)
+ * 19/10-2015
+ */
+
+/*
+Question 1
+ */
+
+6.3.6
+The parallel and sequential versions are both really fast. It does not seem to be directly observable on our machines, whether 
+one is faster than the other. This would probably require some benchmarking with timers. 
+
+6.3.5
+ The answer is not correct, using a parallel stream. The mutable nextParallel is incrementet
+ by several threads, thus yielding a different result each time. This is BAD.
+
+6.5.1
+See file "Example176-651.txt"
+
+6.5.2
+See file "Example176-652.txt"
+
+6.5.3
+Yes, parallelization speeds up the computation of the 13 queen problem by a factor of 2,6.
+Quite the improvement, but honestly we are not able to see any qorrelation with the number
+of CPU's. The machine used here, is a 4 core MacBook Pro, and i would have suspected a factor 
+2 or 4 based on this. 
+
+6.5.4
+Moving the position of the .parallel() method call seems to change nothing in this case.
+I tried moving it around in every possible position, but looking at the 13 queens problem,
+no recognizable speed changes where noticed.
+
+/*
+Question 3
+ */
+
+2. They are indeed sudoku solutions.
+
+8. By putting .parallel() in "Stream<State> sudokus = skeleta.parallel().flatMap(...);" we see a big improvement in speed.
+
+9. If the print method did not have a lock, we could risk (while running in parallel) that one thread would start printing eg. a sudoku board, 
+while another thread would start printing something else, eg. a solution to another board. This could mess up the output to the console, as depictured below.
+
+-------------------------------
+|       9 |       7 |    8    |
+| 6       | 5  8    | 3       |
+| 4       |         |       5 |
+-------------------------------
+| 1       |         | 4       |
+| 7       | 2       |    5  9 |
+| 9  3  5 | 8     4 |    6    |
+-------------------------------
+|    9  6 |         |    4    |
+|       2 |    3    | 9     6 |
+| 8  7    |       6 |   -------------------------------
+|         | 5     4 |         |
+|         |    1  7 | 8     2 |
+|         | 8  2  3 |    1  4 |
+-------------------------------
+| 1  5    |         |    2  8 |
+|       4 | 7  8    | 3       |
+|       8 | 2       |    5    |
+-------------------------------
+|    6    |         |    4  7 |
+|    8    | 6  7    |    3    |
+|         | 4       |    8    |
+-------------------------------
+
+/*
+Question 4
+ */
+
+5. We do not think that the sudokus look suffiently random after performing the various shuffles, on the trivial sudoku solution provided.
+The same patterns still occur after many (>10000) permutations, but with other values.  
+
+6. To make the sudokus seem even more random, we call every tranform method on the State in random order, before we return it. 
+The implementation can be found in the method randomTransformRandom.
