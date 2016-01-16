@@ -71,9 +71,9 @@ object StateEvaluator {
 
   // TODO: complete the implementation of the evaluator as per the spec in the
   // paper.
-  def eval (term :Term) :M[Int] = term match {
-    case Con (a) => M[Int] (x => (a,x))
-    case Div (t,u) => M[Int](x => {
+  def eval (term :Term) :M[State] = term match {
+    case Con (a) => M[State] (x => (a,x))
+    case Div (t,u) => M[State](x => {
     	val (a,y) = eval(t).step(x);
     	val (b,z) = eval(u).step(y);
         (a / b, z + 1);
@@ -93,7 +93,7 @@ object OutputEvaluator {
 
   // TODO: complete the implementation of the eval function
   def eval (term :Term) :M[Int] = term match {
-  	case Con (a) => M[Int] (line((Con(a)))(a),a)
+  	case Con (a) => M[Int](line(Con(a))(a),a)
   	case Div (t,u) => {
   		val M(x,a) = eval(t)
   		val M(y,b) = eval(u)
@@ -148,11 +148,11 @@ object BasicEvaluatorWithMonads {
 
   def eval (term: Term) :M[Int] = term match {
     case Con (a) => M.unit (a)
-    case Div (t,u) => for {
-      a <- eval (t)
-      b <- eval (u)
-      r <- M.unit (a/b)
-    } yield r
+    case Div (t,u) => eval(t).flatMap(a => eval(u).flatMap(b => M.unit(a/b))) // for {
+    //   a <- eval (t)
+    //   b <- eval (u)
+    //   r <- M.unit (a/b)
+    // } yield r
   }
   // TODO: Make sure that you understand the above implementation (and how it
   // relates to the one in the paper). If you find the for comprehension to be
@@ -187,11 +187,12 @@ object ExceptionEvaluatorWithMonads {
   // TODO: complete the evaluator
   def eval (term :Term) :M[Int] = term match {
     case Con (a) => M.unit (a)
-    case Div (t,u) => for {
-    	a <- eval (t)
-    	b <- eval (u)
-    	r <- if (b == 0) Raise("divide by zero") else M.unit (a/b)
-    } yield r
+    case Div (t,u) => // for {
+    // 	a <- eval (t)
+    // 	b <- eval (u)
+    // 	r <- if (b == 0) Raise("divide by zero") else M.unit (a/b)
+    // } yield r
+    eval(t).flatMap(a => eval(u).flatMap(b => if(b == 0) Raise("divide by zero..") else M.unit(a/b)))
   }
 
   // TODO: Discuss in the group how the monadic evaluator with exceptions
@@ -207,21 +208,29 @@ object StateEvaluatorWithMonads {
   case class M[+A] (step: State => (A,State)) extends Monad[A,M] {
 
     // flatMap is bind or (*) in the paper
-    def flatMap[B] (k :A => M[B]) = M[B] {
-      x => { val (a,y) = this.step (x); k(a).step(y) } }
+    def flatMap[B] (k :A => M[B]): M[B] = M[B] {
+      state => {
+             val (a,y) = this.step (state)
+             val (b,z) = k(a).step(y)
+             (b,z)
+            }
+          }
 
     def map[B] (k :A => B) :M[B] =
-      M[B] { x => { val (a,y) = this.step(x); (k(a),y) } }
+      M[B] { x => { val (a,y) = this.step(x); 
+                    (k(a),y)
+                  } 
+           }
   }
 
   // TODO: complete the implementation of unit, based on the paper
-  object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = M(x => (a,x)) }
+  object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = M(x => (a,x)) } // λx.(a,x)
 
   // TODO: complete the implementation of the evalutor:
   def eval (term :Term) :M[State] = term match {
     case Con (a) => M.unit (a)
     case Div (t,u) =>
-    eval(t).flatMap(a => eval(u).flatMap(b => M(x => (a/b, x+1))))
+    eval(t).flatMap(a => eval(u).flatMap(b => M(x => (a/b, x+1))))//.map(x => x)))
     // for {
     // 	a <- eval (t)
     // 	b <- eval (u)
@@ -245,7 +254,13 @@ object OutputEvaluatorWithMonads {
 
     // flatMap is (*) in [Wadler]
     // TODO: implement flatMap
-    def flatMap[B] (k :A => M[B]) = { k (this.a) }
+    def flatMap[B] (k :A => M[B]): M[B] = { 
+       val (x,a) = (this.o, this.a)
+       val M(y,b) = k(a)
+       M(x + y, b)
+
+       // k (this.a) 1
+    }
 
     def map[B] (k :A => B) :M[B] = M[B] (this.o, k(this.a))
 
@@ -259,19 +274,22 @@ object OutputEvaluatorWithMonads {
 
   // TODO: implement eval
   def eval (term :Term) :M[Int] = term match {
-  	case Con (a) => M(line(Con(a))(a),a)
+    case Con (a) => M(line(Con(a))(a),a) // 1
   	case Div (t,u) => {
 
-  		val x = eval(t)
-       	val y = eval(u)
-       	x.flatMap(a => y.flatMap(b =>  M( 
-        x.o + y.o + line(Div(t,u))(x.a/y.a), x.a/y.a ).map(r => r)))
-     /*Above is equivalent to
-       for {
-       a <- eval(t)
-       b <- eval(u)
-       c <- M( eval(t).o + eval(u).o + line(Div(t,u))(a/b), a/b )
-     } yield c*/
+        eval(t).flatMap(a => eval(u).flatMap(b => M(line(Div(t,u))(a/b), a/b))) // OK!
+
+  		  // val x = eval(t) // 1
+        // val y = eval(u) // 1
+       	// x.flatMap(a => y.flatMap(b =>  M( 
+        // x.o + y.o + line(Div(t,u))(x.a/y.a), x.a/y.a ).map(r => r))) // 1
+
+       // Above is equivalent to
+       //   for {
+       //   a <- eval(t)
+       //   b <- eval(u)
+       //   c <- M( eval(t).o + eval(u).o + line(Div(t,u))(a/b), a/b )
+       // } yield c
   	}
   }
 
