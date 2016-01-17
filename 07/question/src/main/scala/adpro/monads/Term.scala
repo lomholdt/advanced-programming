@@ -181,7 +181,7 @@ object ExceptionEvaluatorWithMonads {
 
   object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = Return (a) }
 
-  case class Raise (e: String) extends M[Nothing]
+  case class Raise (e: Exception) extends M[Nothing]
   case class Return[A] (a: A) extends M[A]
 
   // TODO: complete the evaluator
@@ -209,9 +209,15 @@ object StateEvaluatorWithMonads {
 
     // flatMap is bind or (*) in the paper
     def flatMap[B] (k :A => M[B]): M[B] = M[B] {
-      state => {
-             val (a,y) = this.step (state)
-             val (b,z) = k(a).step(y)
+      x => { // x == State
+             printf("flatMap: x: %d%n", x)
+             println(this.hashCode)
+             val (a,y) = this.step(x) //(1972,0) ... (2,0)
+             printf("(a,y): (%d,%d)%n", a,y)
+             println(this.hashCode)
+             val (b,z) = k(a).step(y) //(986,1)
+             println(this.hashCode)
+             printf("(b,z): (%d,%d)%n", b,z)
              (b,z)
             }
           }
@@ -228,9 +234,18 @@ object StateEvaluatorWithMonads {
 
   // TODO: complete the implementation of the evalutor:
   def eval (term :Term) :M[State] = term match {
-    case Con (a) => M.unit (a)
-    case Div (t,u) =>
-    eval(t).flatMap(a => eval(u).flatMap(b => M(x => (a/b, x+1))))//.map(x => x)))
+    case Con (a) => { M.unit(a) }
+    case Div (t,u) => 
+    
+    // M[State](x => {
+    //   val (b,z) = eval(t).flatMap((a) => eval(u).map(p => M.unit(a/p))).step(x)
+    //   b.step(z+1) 
+    //   })
+    println((t,u))
+    eval(t).flatMap(
+        a => eval(u).flatMap(
+            b => M(x => (a/b, x+1)))) //.map(x => x)))
+
     // for {
     // 	a <- eval (t)
     // 	b <- eval (u)
@@ -259,7 +274,7 @@ object OutputEvaluatorWithMonads {
        val M(y,b) = k(a)
        M(x + y, b)
 
-       // k (this.a) 1
+       // k (this.a) // 1
     }
 
     def map[B] (k :A => B) :M[B] = M[B] (this.o, k(this.a))
@@ -274,10 +289,10 @@ object OutputEvaluatorWithMonads {
 
   // TODO: implement eval
   def eval (term :Term) :M[Int] = term match {
-    case Con (a) => M(line(Con(a))(a),a) // 1
+    case Con (a) => M(line(Con(a))(a),a)
   	case Div (t,u) => {
 
-        eval(t).flatMap(a => eval(u).flatMap(b => M(line(Div(t,u))(a/b), a/b))) // OK!
+        // eval(t).flatMap(a => eval(u).flatMap(b => M(line(Div(t,u))(a/b), a/b))) // OK!
 
   		  // val x = eval(t) // 1
         // val y = eval(u) // 1
@@ -289,7 +304,13 @@ object OutputEvaluatorWithMonads {
        //   a <- eval(t)
        //   b <- eval(u)
        //   c <- M( eval(t).o + eval(u).o + line(Div(t,u))(a/b), a/b )
-       // } yield c
+       // } yield c       
+
+         for {
+         a <- eval(t)
+         b <- eval(u)
+         c <- M( M.unit(a).o + M.unit(b).o + line(Div(t,u))(a/b), a/b )
+       } yield c
   	}
   }
 
