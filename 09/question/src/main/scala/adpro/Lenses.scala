@@ -92,17 +92,24 @@ object Lenses {
   // use the infix constructor in this exercise, instead of Either.  All the
   // imports in the project are already set up.
 
-  def codiagGet[A] (l: A \/ A) :A = l match {
-    case -\/(l) => l
-    case \/-(l) => l
-  }
+  // def codiagGet[A] (l: A \/ A) :A = l match {
+  //   case -\/(l) => l
+  //   case \/-(l) => l
+  // }
 
-  def codiagSet[A] (a :A)(l: A \/ A) = l match {
-    case -\/(l) => -\/(a)
-    case \/-(l) => \/-(a)
-  }
+  // def codiagSet[A] (a :A)(l: A \/ A) = l match {
+  //   case -\/(l) => -\/(a)
+  //   case \/-(l) => \/-(a)
+  // }
 
-  def codiag[A]: Lens[A \/ A, A] = Lens[A \/ A, A](codiagGet)(codiagSet)
+  // def codiag[A]: Lens[A \/ A, A] = Lens[A \/ A, A](codiagGet)(codiagSet)
+
+  def codiag[A]: Lens[A \/ A, A] = Lens[A \/ A, A]({
+  case -\/(r) => r
+  case \/-(s) => s })((f: A) => {
+    case -\/(d) => -\/(f)
+    case \/-(d) => \/-(f)
+  })
   
   // Some codiag tests are found in LensesSpec.  Test your solution.
 

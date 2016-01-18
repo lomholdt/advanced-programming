@@ -306,11 +306,15 @@ object OutputEvaluatorWithMonads {
        //   c <- M( eval(t).o + eval(u).o + line(Div(t,u))(a/b), a/b )
        // } yield c       
 
-         for {
-         a <- eval(t)
-         b <- eval(u)
-         c <- M( M.unit(a).o + M.unit(b).o + line(Div(t,u))(a/b), a/b )
-       } yield c
+      // for {
+      //    a <- eval(t)
+      //    b <- eval(u)
+      //    c <- M( M.unit(a).o + M.unit(b).o + line(Div(t,u))(a/b), a/b )
+      //  } yield c
+
+       // eval(t).flatMap(((a) => eval(u).flatMap(((b) => M(M.unit(a).o.$plus(M.unit(b).o).$plus(line(Div(t, u))(a.$div(b))), a.$div(b)).map(((c) => c))))))
+
+
   	}
   }
 
