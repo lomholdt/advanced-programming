@@ -292,7 +292,7 @@ object OutputEvaluatorWithMonads {
     case Con (a) => M(line(Con(a))(a),a)
   	case Div (t,u) => {
 
-        // eval(t).flatMap(a => eval(u).flatMap(b => M(line(Div(t,u))(a/b), a/b))) // OK!
+        eval(t).flatMap(a => eval(u).flatMap(b => M(line(Div(t,u))(a/b), a/b))) // OK!
 
   		  // val x = eval(t) // 1
         // val y = eval(u) // 1
